@@ -2,90 +2,95 @@
 <html lang="en">
 
 <head>
-  <!-- This php line should be removed on your personal webiste -->
   <?php include dirname($_SERVER['DOCUMENT_ROOT']) . "/simpel.cc/php/head.php"; ?>
-  <!-- Those 3 lines should be uncommented on your personal website -->
-  <!-- <meta charset="utf-8"> -->
-  <!-- <title>Perfect Website</title> -->
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-  <link rel="stylesheet" href="perfect.style.css">
-  <!-- style.css overwrites some of the perfect.style.css because of header -->
-  <!-- style.css should be removed on your personal website -->
   <link rel="stylesheet" href="style.min.css">
 </head>
 
 <body>
-  <!-- header should be removed on your personal website -->
   <header>
     <?php include dirname($_SERVER['DOCUMENT_ROOT']) . "/simpel.cc/php/header.php"; ?>
   </header>
 
   <main>
-    <!-- This <h1> should be uncommented on your personal website -->
-    <!-- <h1>This is the <em>final</em> website.</h1> -->
-
-    <p>And it’s <em>really</em> more perfect than the last guy’s.</p>
-
-    <h2>Minimal things are needed to make this perfect.</h2>
-
     <p>
-      <strong>Fourten declarations, a <code class="language-plaintext highlighter-rouge">@media</code> block and one attribute.</strong><br>
-      <a href="perfect.style.css">Watch this CSS file</a>.
+      Und sie ist <em>wirklich</em> verdammt nochmal perfekter als die des letzten Typen.
     </p>
 
-    <p>That’s how much CSS and HTML it took to turn that <a href="https://motherfuckingwebsite.com/" target="_blank">inspiration</a> into this finally perfect masterpiece. It’s so simple and it still has all the glory of the original perfect website:
+    <h2 id="winzige-Dinge">
+      Im Ernst, ein paar winzige Dinge sind nötig, um diesen Scheiß perfekt zu machen.
+    </h2>
+
+    <p>
+      <strong>Elf verdammte Deklarationen, ein <code>@media</code>-Block und
+        ein Attribut.</strong>
+    </p>
+
+    <p>
+      So viel <a href="perfect.style.css">CSS</a> und HTML hat es gebraucht, um diesen <a href="https://motherfuckingwebsite.com/">grotesken Haufen Scheiße</a> in dieses endlich perfekte Meisterwerk zu verwandeln. Es ist so verdammt einfach und hat trotzdem den ganzen Glanz der ursprünglichen, verkackten Webseite:
     </p>
 
     <ul>
-      <li><em>Finally</em> lightweight and loads fast;</li>
-      <li><em>Finally</em> fits on all your screens;</li>
-      <li><em>Finally</em> looks the same in all your browsers;</li>
-      <li><em>Won’t</em> bleach your eyes if you like dark things;</li>
-      <li><em>Still</em> accessible to every one that visits your site;</li>
-      <li><em>Still</em> legible.</li>
+      <li><em>endlich</em> ist der Scheiß leichtgewichtig und lädt schnell;</li>
+      <li><em>endlich</em> passt es auf all eure beschissenen Bildschirme;</li>
+      <li><em>endlich</em> sieht es in all euren bekackten Browsern gleich aus;</li>
+      <li>es wird euch nachts <em>nicht</em> die verdammten Augäpfel verbrennen;</li>
+      <li>das Drecksding ist <em>immer noch</em> für jedes Arschloch zugänglich;</li>
+      <li>der Mist ist <em>immer noch</em> lesbar und bringt deinen verdammten Standpunkt rüber.</li>
     </ul>
 
-    <h3>And guess what:</h3>
+    <h3 id="schau-mal">Und schau mal, Arschloch:</h3>
 
-    <p>You never knew it, but it’s easy to improve reliability on your site. Here’s how.</p>
+    <p>
+      Du hast es vielleicht nicht gewusst, aber es ist total einfach, deine Webseite zu verbessern. So geht's.
+    </p>
 
-    <h2>Little more accessibility</h2>
+    <h2 id="barrierefreiheit">Ein bisschen mehr Barrierefreiheit</h2>
 
-    <p>I know you love marginalization, but you should take care of people.
-      The <abbr title="HyperText Markup Language">HTML</abbr> tag doesn’t include the <a href="https://www.w3.org/TR/html5/dom.html#the-lang-and-xml:lang-attributes" target="_blank"><code>lang</code> attribute</a> in your webpage.<br>
-      You ever listen to a wrong language screen reader lecture</a>? What a bad experience.</p>
+    <p>
+      Ich weiß, du stehst auf Ausgrenzung, aber du solltest dich echt um alle kümmern. Sorg dafür, dass im <a href="https://www.w3schools.com/tags/tag_html.asp">html-Tag</a> auf deiner beschissenen Webseite das <a href="https://www.w3.org/TR/html5/dom.html#the-lang-and-xml:lang-attributes"><code>lang</code>-Attribut</a> gesetzt ist.
+      <br />
+      Hast du schon mal einen <a href="https://www.youtube.com/watch?v=NP94u7y_KkQ">Screenreader in der falschen Sprache</a> gehört? Was für eine üble Erfahrung.
+    </p>
 
-    <h2>Typography matters</h2>
+    <h2 id="typografie">Typografie zählt</h2>
 
-    <p><a href="https://smartquotesforsmartpeople.com/" target="_blank">Don’t be dumb with typography</a>. Don’t let improper marks and quotes make their way onto websites because of dumb defaults in applications and <abbr title="Conten Management System">CMSs</abbr>.<br>
-      And did you let the browser choose the font? Don’t make me read such text with <em>Times New Roman</em>.</p>
+    <p>
+      <a href="https://smartquotesforsmartpeople.com/">Sei nicht dumm, was Typografie angeht</a>. Kopiere keine falschen Anführungs&shy;zeichen auf deine Webseite, nur wegen bekloppter Standardeinstellungen in deinem Editor.<br />
+      Und du lässt ernsthaft den Browser die Schriftart auswählen? Zwing mich nicht, deinen Text mit <em>Times New Roman</em> zu lesen.
+    </p>
 
-    <h2>License</h2>
+    <h2 id="lizenz">Lizenz, Arschloch</h2>
 
-    <p>Do you revendicate intellectual property? No. So you must <a href="https://choosealicense.com/" target="_blank">choose a public license</a>.<br>
-      And as you’ll never be perfect, let others <a href="https://github.com/LeoColomb/perfectmotherfuckingwebsite" target="_blank">improve your site</a> or <a href="https://github.com/LeoColomb/perfectmotherfuckingwebsite/blob/master/LICENSE"
-        target="_blank">do what they want to</a>.</p>
+    <p>
+      Beanspruchst du geistiges Eigentum? Nein. Also musst du eine verdammte, <a href="https://choosealicense.com/">offene Lizenz</a> wählen.
+      <br />
+      Und da du niemals perfekt sein wirst, lass andere <a href="https://github.com/SimpelMe/endgueltige-webseite/issues">deinen Mist verbessern</a> oder lass sie tun, <a href="https://de.wikipedia.org/wiki/WTFPL">was zum Teufel sie wollen</a>.
+    </p>
 
-    <h2>This is the last satire</h2>
+    <h2 id="letzte-satire">Ja, das ist die letzte verdammte Satire, du Arsch</h2>
 
-    <p>I’m impressed about what the creator of <a href="https://perfectmotherfuckingwebsite.com" target="_blank">this site’s inspiration did</a>. What I’m saying is that it’s so, so simple to make sites easier to read. Websites are broken by default
-      — they are functional, high-performing, and accessible, but they’re also ugly. You and all the other web designers out there need to make them not total shit.</p>
+    <p>
+      Ich bin beeindruckt davon, was der Schöpfer <a href="https://perfectmotherfuckingwebsite.com/">dieser Website getan hat</a>. Was ich sagen will: es ist so, so einfach, Webseiten lesbarer zu machen. Webseiten sind einfach im Arsch &ndash; sie sollten funktional, leistungsstark und barrierefrei sein; meistens sind sie verdammt hässlich. Du und alle anderen Webdesigner da draußen müsst dafür sorgen, dass sie nicht totaler Dreck sind.
+    </p>
 
     <blockquote>
-      <p>“Don’t ignore stupid things or you will stay at the motherfucker level.”
-        — Brad Hollande</p>
+      „Gutes Design ist so wenig Design wie möglich.“
+      <br>
+      <cite>&ndash; irgendein deutscher Penner</cite>
     </blockquote>
 
     <hr />
 
-    <h2>Epilogue</h2>
+    <h2 id="epilog">Epilog</h2>
 
-    <p>Inspired by the geniuses behind <a href="https://motherfuckingwebsite.com" target="_blank">motherfuckingwebsite.com</a>, <a href="http://bettermotherfuckingwebsite.com" target="_blank">bettermotherfuckingwebsite.com</a> and <a
-        href="https://perfectmotherfuckingwebsite.com" target="_blank">perfectmotherfuckingwebsite.com</a>.</p>
+    <p>
+      Inspiriert von den Genies hinter <a href="https://motherfuckingwebsite.com/">motherfuckingwebsite.com</a>, <a href="http://bettermotherfuckingwebsite.com/">bettermotherfuckingwebsite.com</a> und <a href="https://perfectmotherfuckingwebsite.com/">perfectmotherfuckingwebsite.com</a>.
+    </p>
 
-    <p>This page was licensed under <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">CC0</a>.</p>
+    <p>
+      Diese Seite &ndash; die natürlich nicht fertig ist &ndash; wurde unter <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a> lizenziert.
+    </p>
   </main>
-
 </body>
 
 </html>
