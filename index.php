@@ -92,5 +92,9 @@
     </p>
   </main>
 </body>
+<script>
+  // change root link for click on logo to /blog
+  document.getElementById('logo').href= "/blog"
+</script>
 
 </html>
